@@ -4,11 +4,11 @@ let
 in pkgs.mkShell {
 	name = "-Personalize Here-";
 
-	nativeBuildInputs = with pkgs.buildPackages; []; ## for build tools.
+	nativeBuildInputs = with pkgs.buildPackages; []; 	## for build tools.
 
-	buildInputs = with pkgs; []; 					 ## for libraries
+	buildInputs = with pkgs; [];						## for libraries
 
-	packages = with hostPkgs; [];					 ## for others
+	packages = with hostPkgs; [];						## for others
 
 	shellHook = ''
 		echo "You're ready."
