@@ -30,7 +30,6 @@
 					"${modifier}+q" = "kill";
 					"${modifier}+Return" = "exec alacritty";
 					"${modifier}+w" = "exec firefox";
-					"${modifier}+n" = "exec thunar";
 					"${modifier}+d" = "exec rofi -show drun";
 					"${modifier}+l" = "exec betterlockscreen --lock --wall";
 					"Print" = "exec flameshot gui";
