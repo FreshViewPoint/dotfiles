@@ -14,6 +14,7 @@
 	home.packages = with pkgs; [
 		ani-cli
 		flameshot
+		jetbrains.idea-community
 		xfce.xfce4-clipman-plugin
 
 		btop
